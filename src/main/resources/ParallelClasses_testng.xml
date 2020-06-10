@@ -1,0 +1,8 @@
+<suite name="Test-class Suite" parallel="classes" thread-count="4" >
+    <test name="Test-class test" >
+        <classes>
+            <class name="testng.example.ParallelClassesTestOne" />
+            <class name="testng.example.ParallelClassesTestTwo" />
+        </classes>
+    </test>
+</suite>

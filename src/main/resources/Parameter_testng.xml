@@ -1,0 +1,28 @@
+<suite name="Parameter test Suite" verbose="1">
+    <!-- This parameter will be passed to every test in this suite -->
+
+    <test name="Parameter Test one">
+        <parameter name="browser" value="Firefox" />
+        <parameter name="OS" value="Win" />
+        <classes>
+            <class name="testng.example.ParameterTest">
+                <methods>
+                    <include name="prameterTestOne" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Parameter Test Two">
+        <parameter name="browser" value="Chrome" />
+        <parameter name="OS" value="Mac" />
+        <classes>
+            <class name="testng.example.ParameterTest">
+                <methods>
+                    <include name="prameterTestOne" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    </suite>

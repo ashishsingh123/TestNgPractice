@@ -1,0 +1,16 @@
+<suite name="TestSuite" thread-count="5">
+    <groups>
+        <run>
+            <include name="group-one" />
+            <exclude name="group-two" />
+        </run>
+    </groups>
+
+    <test name="Groups" preserve-order="true">
+
+        <classes>
+            <class name="testng.example.TestGroups"/>
+        </classes>
+    </test>
+
+</suite>

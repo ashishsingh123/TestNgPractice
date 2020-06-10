@@ -1,0 +1,12 @@
+<suite name="TestSuite" thread-count="5">
+
+    <test name="BeforeAfter" preserve-order="true">
+       <classes>
+            <class name="testng.example.BeforeAfter"/>
+             <methods>
+                 <include name="testCase" />
+             </methods>
+       </classes>
+    </test>
+
+</suite>
