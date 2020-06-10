@@ -8,7 +8,7 @@ public class DataProviderClass {
     @DataProvider(name = "data-provider")
     public static Object[][] dataProviderMethod()
     {
-        return new Object[][] { { "data one","aaa" }, { "data two","aaa" },{ "data three","aaa" } };
+        return new Object[][] { { "data one","aaaa" }, { "data two","aaac" },{ "data three","aaaa" } };
     }
 
 /*    @Test(dataProvider = "data-provider")
